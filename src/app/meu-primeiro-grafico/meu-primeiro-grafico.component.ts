@@ -56,9 +56,9 @@ export class MeuPrimeiroGraficoComponent implements OnInit {
         interaction: {
           mode: 'point',
         },
-        onClick: (e, elemnts) => {
+        onClick: (e, elements) => {
           console.log('CLICOU', e);
-          console.log('elements', elemnts);
+          console.log('elements', elements);
         },
         animation: { easing: 'easeOutCirc' },
         plugins: {
